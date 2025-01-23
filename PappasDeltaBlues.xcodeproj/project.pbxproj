@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		167DC8642D3D8865008BA639 /* PappasDeltaBlues */ = {
+		164A4B082D42E63A00A5D9E7 /* PappasDeltaBlues */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PappasDeltaBlues;
 			sourceTree = "<group>";
@@ -32,8 +32,8 @@
 		167DC8592D3D8865008BA639 = {
 			isa = PBXGroup;
 			children = (
-				167DC8642D3D8865008BA639 /* PappasDeltaBlues */,
 				167DC8632D3D8865008BA639 /* Products */,
+				164A4B082D42E63A00A5D9E7 /* PappasDeltaBlues */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				167DC8642D3D8865008BA639 /* PappasDeltaBlues */,
+				164A4B082D42E63A00A5D9E7 /* PappasDeltaBlues */,
 			);
 			name = PappasDeltaBlues;
 			packageProductDependencies = (
