@@ -30,25 +30,7 @@ class MenuViewModel: ObservableObject
         
         groupedMenuItems = Dictionary(grouping: allMenuItems, by: \.type)
         
-        allMenuItems.sort { item1, item2 in
-            if item1.type == "Cocktails"
-            {
-                return false
-            }
-            else if item2.type == "Cocktails"
-            {
-                return true
-            }
-            else
-            {
-                return item1.name < item2.name
-            }
-        }
     }
     
-//        // Example: Fetch items for a specific category (e.g., "Appetizer")
-//    func items(for category: String) -> [Menu]
-//    {
-//        return groupedMenuItems[category] ?? []
-//    }
+
 }
