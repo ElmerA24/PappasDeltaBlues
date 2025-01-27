@@ -32,7 +32,7 @@ struct HomeView: View
                         MenuListView()
                     }
                     .frame(width: 350, height: 50)
-                    .background(Color(.systemGray3))
+                    .background(.white)
                     .foregroundColor(.black)
                     .cornerRadius(10)
                     
@@ -41,7 +41,7 @@ struct HomeView: View
                         OurStoryView()
                     }
                     .frame(width: 350, height: 50)
-                    .background(Color(.systemGray3))
+                    .background(.white)
                     .foregroundColor(.black)
                     .cornerRadius(10)
                     
