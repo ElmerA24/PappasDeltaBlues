@@ -29,7 +29,7 @@ class FriedFavsService
             type: "Favorites",
             name: "Nashville Hot Fried Chicken",
             description: "mix of white and dark meat. So sorry... no subs",
-            imageName: "hot-chicken",
+            imageName: "fried-chicken",
             price: 18.95),
         
         Menu(

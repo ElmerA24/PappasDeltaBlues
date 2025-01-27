@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Menu
+struct Menu: Identifiable
 {
+    let id = UUID()
     let type: String
     let name: String
     let description: String

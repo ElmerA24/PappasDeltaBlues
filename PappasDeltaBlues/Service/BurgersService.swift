@@ -14,7 +14,7 @@ class BurgersService
         Menu(type: "Burger",
              name: "The Prime Burger",
              description: "American cheese, onions, pickles & Delta sauce",
-             imageName: "prime-burger",
+             imageName: "pit-boss",
              price: 15.95
             ),
         
@@ -28,14 +28,14 @@ class BurgersService
         Menu(type: "Burger",
              name: "Crispy Chicken Sandwich",
              description: "pickles, onions, mayo & tangy mustard sauce",
-             imageName: "crispy-sandwich",
+             imageName: "pit-boss",
              price: 15.95
             ),
         
         Menu(type: "Burger",
              name: "Prime Brisket Sandwich",
              description: "loose & lean brisket, pickles, pickled red onions, & sweet original sauce",
-             imageName: "brisk-sand",
+             imageName: "pig-out",
              price: 16.95
             ),
         
@@ -49,21 +49,21 @@ class BurgersService
         Menu(type: "Burger",
              name: "Chopped Beef Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "chopped-sand",
+             imageName: "pig-out",
              price: 15.95
             ),
         
         Menu(type: "Burger",
              name: "Smoked Turkey Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "turk-sand",
+             imageName: "pig-out",
              price: 15.95
             ),
         
         Menu(type: "Burger",
              name: "Pork Belly Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "belly-sand",
+             imageName: "pig-out",
              price: 14.95
             ),
         
@@ -77,21 +77,21 @@ class BurgersService
         Menu(type: "Burger",
              name: "Smoked Chicken Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "smchicken-sand",
+             imageName: "pig-out",
              price: 13.95
             ),
         
         Menu(type: "Burger",
              name: "Jalapeno Cheddar Sausage Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "japsau-sand",
+             imageName: "pig-out",
              price: 13.95
             ),
         
         Menu(type: "Burger",
              name: "Beef Sausage Sandwich",
              description: "pickles, onions, & Sweet original sauce",
-             imageName: "bfsau-sand",
+             imageName: "pig-out",
              price: 13.95
             )
         

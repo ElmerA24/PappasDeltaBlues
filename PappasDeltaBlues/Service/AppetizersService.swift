@@ -74,15 +74,6 @@ class AppetizersService
             description: "chips,pulled pork,queso,beans,jalapenos, sour cream, Monterey Jack, pickled onions & sweet original sauce",
             imageName: "nachos",
             price: 14.95
-            ),
-        
-        
-        Menu (
-            type: "Appetizer",
-            name: "Parker House Rolls",
-            description: "with butter",
-            imageName: "rolls",
-            price: 3.95
             )
         
     ]

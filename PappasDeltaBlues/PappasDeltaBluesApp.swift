@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct PappasDeltaBluesApp: App {
-    var body: some Scene {
+struct PappasDeltaBluesApp: App
+{
+    @StateObject private var viewModel = MenuViewModel()
+    var body: some Scene
+    {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(viewModel)
         }
     }
 }

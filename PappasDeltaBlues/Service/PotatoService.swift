@@ -31,7 +31,7 @@ class PotatoService
             type: "Potato",
             name: "The Cadillac w/ Smoked Chicken",
              description: "sweet original sauce, butter, cheddar, sour cream, & green onions",
-             imageName: "chicken-potato",
+             imageName: "beef-potato",
             price: 13.95
         ),
         
@@ -47,7 +47,7 @@ class PotatoService
             type: "Potato",
             name: "The Plain Jane",
              description: "butter, cheddar, bacon, sour cream, & green onions",
-             imageName: "plain-jane",
+             imageName: "beef-potato",
             price: 7.95
         )
         

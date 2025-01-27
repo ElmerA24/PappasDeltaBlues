@@ -29,35 +29,35 @@ class SteakService
             type: "Steak",
             name: "Bacon Wrapped Filet Mignon | 6oz.",
             description: "Steaks are seasoned with a choice of salt & pepper or sweet chili rub & served with two homemade sides or a baked potato & a Parker House Roll",
-            imageName: "filet-mignon-bacon",
+            imageName: "filet-mignon",
             price: 27.95),
         
         Menu(
             type: "Steak",
             name: "Bacon Wrapped Filet Mignon | 9oz.",
             description: "Steaks are seasoned with a choice of salt & pepper or sweet chili rub & served with two homemade sides or a baked potato & a Parker House Roll",
-            imageName: "filet-mignon-bacon",
+            imageName: "filet-mignon",
             price: 32.95),
         
         Menu(
             type: "Steak",
             name: "Delta Ribeye | 12oz.",
             description: "Steaks are seasoned with a choice of salt & pepper or sweet chili rub & served with two homemade sides or a baked potato & a Parker House Roll",
-            imageName: "delta-ribeye",
+            imageName: "ribeye",
             price: 27.95),
         
         Menu(
             type: "Steak",
             name: "Aged Beef Ribeye | 16oz.",
             description: "Steaks are seasoned with a choice of salt & pepper or sweet chili rub & served with two homemade sides or a baked potato & a Parker House Roll",
-            imageName: "aged-ribeye",
+            imageName: "ribeye",
             price: 35.95),
         
         Menu(
             type: "Steak",
             name: "Bone-In Ribeye | 20oz.",
             description: "Steaks are seasoned with a choice of salt & pepper or sweet chili rub & served with two homemade sides or a baked potato & a Parker House Roll",
-            imageName: "filet-mignon",
+            imageName: "ribeye",
             price: 25.95),
         
         Menu(

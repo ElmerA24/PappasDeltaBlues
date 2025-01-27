@@ -22,14 +22,14 @@ class BbqService
             type: "Bbq",
             name: "Pulled Pork",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "pulled-pork",
+            imageName: "brisket",
             price: 14.95),
         
         Menu(
             type: "Bbq",
             name: "Smoked Pork Belly",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "pork-belly",
+            imageName: "brisket",
             price: 16.95),
         
         Menu(
@@ -43,21 +43,21 @@ class BbqService
             type: "Bbq",
             name: "Smoked Turkey Breast",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "turkey",
+            imageName: "brisket",
             price: 19.95),
         
         Menu(
             type: "Bbq",
             name: "Smoked Chicken",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "smoked-chicken",
+            imageName: "brisket",
             price: 14.95),
         
         Menu(
             type: "Bbq",
             name: "Jalapeno & Cheddar Sausage",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "jalapeno-sausage",
+            imageName: "brisket",
             price: 13.95),
         
         Menu(
@@ -78,21 +78,21 @@ class BbqService
             type: "Bbq",
             name: "Prime Brisket Combo w/ Chicken",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "brisket-chicken",
+            imageName: "brisket-turkey",
             price: 18.95),
         
         Menu(
             type: "Bbq",
             name: "Prime Brisket Combo w/ Pulled Pork",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "brisket-pork",
+            imageName: "brisket-turkey",
             price: 18.95),
         
         Menu(
             type: "Bbq",
             name: "Prime Brisket Combo w/ Pork Belly",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "brisket-belly",
+            imageName: "brisket-turkey",
             price: 23.95),
         
         Menu(
@@ -105,14 +105,14 @@ class BbqService
             type: "Bbq",
             name: "Prime Brisket Combo w/ Jalapeno cheddar sausage",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "brisket-japsau",
+            imageName: "brisket-turkey",
             price: 16.95),
         
         Menu(
             type: "Bbq",
             name: "Prime Brisket Combo w/ Beef Sausage",
             description: "served with two homemade sides, a Parker house roll, pickles & onions ",
-            imageName: "brisket-bfsau",
+            imageName: "brisket-turkey",
             price: 16.95),
         
         Menu(
@@ -126,7 +126,7 @@ class BbqService
             type: "Bbq",
             name: "BBQ Feast w/ Fried Chicken",
             description: "prime brisket, Delta pork ribs, smoked chicken, smoked turkey, pulled pork & choice of smoked boudin, housemade jalapeno cheddar sausage or beef sausage | 3-4 people",
-            imageName: "feast",
+            imageName: "feast-frchk",
             price: 99.95)
     ]
 }

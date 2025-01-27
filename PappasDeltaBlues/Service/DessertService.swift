@@ -21,14 +21,14 @@ class DessertService
         Menu(type: "Dessert",
              name: "Warm Pecan Cobbler",
              description: "with bourbob - spiked chocolate, vanilla ice cream, sweet & salty pecans",
-             imageName: "pecan-cobbler",
+             imageName: "apple-pie",
              price: 7.95
             ),
         
         Menu(type: "Dessert",
              name: "Vanilla Cheesecake",
              description: "with fresh strawberries",
-             imageName: "z-cake",
+             imageName: "apple-pie",
              price: 7.95
             ),
         

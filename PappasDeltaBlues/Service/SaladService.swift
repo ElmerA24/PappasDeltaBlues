@@ -14,7 +14,7 @@ class SaladService
         Menu(type: "Salad",
              name: "Delta Blues Garden Salad",
              description: "spring mix, cucumber, red onions,tomato, monterey jack, and croutons",
-             imageName: "dbsalad",
+             imageName: "bbq-salad",
              price: 6.95
             ),
         
@@ -23,7 +23,7 @@ class SaladService
             type: "Salad",
             name: "Fried Chicken Salad",
             description: "mixed greens, apples, candied pecans, cherries,honey bacon, cucumber, red onions, jack cheese, honey mustard dressing",
-            imageName: "fried-chicken-salad",
+            imageName: "bbq-salad",
             price: 19.95
             ),
         
