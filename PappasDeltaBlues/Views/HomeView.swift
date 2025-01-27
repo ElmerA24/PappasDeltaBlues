@@ -19,7 +19,7 @@ struct HomeView: View
             {
                 Color.black.ignoresSafeArea()
                 
-                Image("dbmain")
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .ignoresSafeArea()
