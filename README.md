@@ -17,3 +17,5 @@ This project demonstrates the use of MVVM architecture. All photos are owned by 
 2. No login is required
 3. Tap on View Menu to explore their menu
 
+## Future Enhancements
+1. Add multiple views (such as cart, checkout)
