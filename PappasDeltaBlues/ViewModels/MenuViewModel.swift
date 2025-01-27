@@ -13,7 +13,7 @@ class MenuViewModel: ObservableObject
     // Published properties to notify SwiftUI views of changes
       @Published var groupedMenuItems: [String: [Menu]] = [:]
       @Published var allMenuItems: [Menu] = []
-    @Published var allCocktails: [Menu] = []
+  
     
     init()
     {
@@ -26,8 +26,8 @@ class MenuViewModel: ObservableObject
         allMenuItems = AppetizersService.appetizers + BbqService.bbq + BurgersService.burgers + DessertService.dessert + FriedFavsService.favorites + PotatoService.potatoes + SaladService.salads +
         SeafoodService.seafood  + SteakService.steaks + CocktailService.cocktails
         //+ SidesService.sides
-            // Group menu items by type
         
+            // Group menu items by type
         groupedMenuItems = Dictionary(grouping: allMenuItems, by: \.type)
         
     }
