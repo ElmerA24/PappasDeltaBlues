@@ -12,7 +12,7 @@ import SwiftUI
 struct MenuListView: View
 {
     @StateObject private var viewModel = MenuViewModel() // StateObject for ownership
-    @State private var showSheet = false
+    //@State private var showSheet = false
     @State private var selectedMenuItem: Menu? // Hold the selected menu item
     
     var body: some View
@@ -37,7 +37,7 @@ struct MenuListView: View
                                 Button
                                 {
                                     selectedMenuItem = menuItem
-                                    showSheet = true
+    
                                 }
                                 
                             label:
@@ -52,14 +52,14 @@ struct MenuListView: View
                     }
                     
                 }//end of list
+                
                 .listStyle(.plain)
                 .navigationTitle("Pappas Delta Blues Smokehouse")
                 .navigationBarTitleDisplayMode(.inline)
-                .sheet(isPresented: $showSheet) {
-                    if let menuItem = selectedMenuItem {
-                        MenuDetailView(menuItem: menuItem)
-                    }
+                .sheet(item: $selectedMenuItem) { model in
+                    MenuDetailView(menuItem: model)
                 }
+
             }// end of zstack
             
         }//end of navView
