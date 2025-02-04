@@ -40,7 +40,6 @@ struct MenuRowView: View
             
 
         }
-        .padding()
         .padding(.vertical, 5)
         
 
