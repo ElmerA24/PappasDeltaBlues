@@ -44,7 +44,7 @@ struct MenuListView: View
                                 {
                                     MenuRowView(menuItem: menuItem)
                                 }
-                                .background(.ultraThinMaterial)
+                                
                                 
                             }
                         }
