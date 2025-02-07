@@ -19,7 +19,7 @@ struct MenuListView: View
     {
         NavigationView
         {
-            ZStack
+            VStack
             {
  
                 List
@@ -60,9 +60,19 @@ struct MenuListView: View
                     MenuDetailView(menuItem: model)
                 }
 
-            }// end of zstack
+            }// end of Vstack
+            .toolbar {
+                NavigationLink {
+                    Text("This is cart view")
+                } label: {
+                    Image(systemName: "cart.fill")
+                        
+                }
+                .navigationBarBackButtonHidden()
+            }
             
         }//end of navView
+
     }
 }
 

@@ -10,6 +10,7 @@ import SwiftUI
 struct MenuDetailView: View
 {
     let menuItem: Menu
+    @State private var quantity = 0
     
     var body: some View
     {
@@ -25,6 +26,28 @@ struct MenuDetailView: View
                     descriptionSection
                     Divider()
                     priceSection
+                    
+                    
+                    HStack
+                    {
+ 
+                            Button {
+                                //action will send item to cart
+                                
+                            } label: {
+                                Text("Add to Cart")
+                                    .frame(width: 360, height: 50)
+                                    .background(.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+                            }
+                           
+                                
+                        
+                    }
+                    .padding(.vertical)
+                    
+
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
